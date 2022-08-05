@@ -1,5 +1,5 @@
 {% set name = "tptp-lark-parser" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tptp-lark-parser-{{ version }}.tar.gz
-  sha256: e7cd3262183dfbe7fc247dd0137321a7bdc3cc13edf03230783188e1930a4b29
+  sha256: d2be26d791a3dc45e6628766e4a1c8c99991c50a0d2f467f50d2272534ef5394
 
 build:
   noarch: python
