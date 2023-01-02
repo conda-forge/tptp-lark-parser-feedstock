@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tptp-lark-parser-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tptp_lark_parser-{{ version }}.tar.gz
   sha256: 357a3fe2886a399bde31443f4326aac81f458d7efbd23282b0023b28b5f241fa
 
 build:
